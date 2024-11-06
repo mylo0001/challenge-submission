@@ -35,4 +35,5 @@
 - Automate traffic generation by running the script **generate_traffic.sh** in a seperate container within Docker Compose and Kubernetes.
 - Automate the import of an existing Grafana dashboard in both Docker Compose and Kubernetes by mounting the dashboard file as a volume.
 - Deploy Prometheus and Grafana in seperate namespace(s).
+- Declare and use a non root user in the docker file.
 
